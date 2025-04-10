@@ -9,11 +9,11 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Mithun Technologies</h1>
-<h1 align="center">Phone Number: +91 9980923216</h1>
-<h1 align="center">Mithun Technologies is a Very Good Training Center for DevOps, Cloud, Kubernetes and Terraform</h1>
+<h1 align="center">Welcome to Sudheer family tech</h1>
+<h1 align="center">Phone Number: +91 7993887653</h1>
+<h1 align="center">sudheer is a Very Good person for DevOps, Cloud, Kubernetes and Terraform</h1>
 
-<h1 align="center">Trainer Name: Bhaskar Reddy Lacchannagari</h1>
+<h1 align="center">Trainer Name: Sudheer Kumar Chebolu</h1>
 
 <hr>
 <br>
@@ -38,13 +38,13 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 		<img src="images/mithunlogo.jpg" alt="" width="100">
 	</span>
 	<span style="font-weight: bold;">
-		Mithun Technologies, 
-		Marathahalli,
-		Bengaluru,
-		+91 9980923216 and 
-		Devopstrainingblr@Gmail.com
+		9-10-9/3, 
+		sivajipalem,
+		visakhapatnam,
+		+91 7993887653 and 
+		sudheerdevopseng@Gmail.com
 		<br>
-		<a href="mailto:Devopstrainingblr@Gmail.com">Mail to Mithun Technologies</a>
+		<a href="mailto:sudheerchebolu107@Gmail.com">Mail to Mithun Technologies</a>
 	</span>
 </div>
 <hr>
