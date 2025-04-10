@@ -4,8 +4,8 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>MithunTechnologies- Home Page</title>
-<link href="images/mithunlogo.jpg" rel="icon">
+<title>Sudheer Technologies- Home Page</title>
+<link href="images/IMG_9934.JPG" rel="icon">
 </head>
 </head>
 <body>
@@ -35,7 +35,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="images/mithunlogo.jpg" alt="" width="100">
+		<img src="images/IMG_9934.JPG" alt="" width="100">
 	</span>
 	<span style="font-weight: bold;">
 		9-10-9/3, 
@@ -44,15 +44,15 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 		+91 7993887653 and 
 		sudheerdevopseng@Gmail.com
 		<br>
-		<a href="mailto:sudheerchebolu107@Gmail.com">Mail to Mithun Technologies</a>
+		<a href="mailto:sudheerchebolu107@Gmail.com">Mail to Sudheer Technologies</a>
 	</span>
 </div>
 <hr>
 	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
 <hr>
 <hr>
-<p align=center>Mithun Technologies - Consultant, Training and Development Center.</p>
-<p align=center><small>Copyrights 2025 by <a href="http://mithuntechnologies.com/">Mithun Technologies,Bengaluru</a> </small></p>
+<p align=center>Sudheer Technologies - Consultant, Training and Development Center.</p>
+<p align=center><small>Copyrights 2025 by <a href="http://sudheertechnologies.com/">Sudheer Technologies,Vizag</a> </small></p>
 
 </body>
 </html>
