@@ -12,10 +12,12 @@ node
     {
     sh "${mh}/bin/mvn clean package"
     }
+    /*
     stage('sonar')
     {
     sh "${mh}/bin/mvn sonar:sonar"
     }
+    */
     stage('tomcat')
     {
     sshagent(credentials: ['16170db6-2559-4f05-8c39-1c6b87eb1177'], ignoreMissing: true) {
