@@ -2,7 +2,7 @@ pipeline
 {
     agent any
 tools{
-maven 'maven 3.8.1'
+maven 'mvn 3.8.1'
 }
     stages{
     stage('checkoutcode')
@@ -14,7 +14,7 @@ git branch: 'master', url: 'https://github.com/tvnewsjkl/maven-web-application'
     stage('build')
     {
     steps{    
-sh "${mh}/bin/mvn clean package"
+sh "mvn clean package"
     }
 }
     /*
