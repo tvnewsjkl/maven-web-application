@@ -1,0 +1,30 @@
+node
+{
+    def mh = tool name: "mvn3.8.1"
+    properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '', daysToKeepStr: '', numToKeepStr: '3'))])
+    
+    stage('checkoutcode')
+    {
+    git branch: 'master', url: 'https://github.com/tvnewsjkl/maven-web-application'
+    }
+    
+    stage('build')
+    {
+    sh "${mh}/bin/mvn clean package"
+    }
+    stage('sonar')
+    {
+    sh "${mh}/bin/mvn sonar:sonar"
+    }
+    stage('tomcat')
+    {
+    sshagent(credentials: ['16170db6-2559-4f05-8c39-1c6b87eb1177'], ignoreMissing: true) {
+    sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@16.171.111.114:/opt/apache-tomcat-9.0.104/webapps/"
+    }
+    }
+    stage('mail')
+    {
+    emailext body: '''hibuild''', subject: 'buld done', to: 'tvnewsjkl@gmail.com'
+    }
+    
+}
